@@ -85,7 +85,8 @@ static const struct sensor_t sSensorList[] = {
         { "AL3201 Light Sensor",
           "LITEON",
           1, SENSORS_LIGHT_HANDLE,
-          SENSOR_TYPE_LIGHT, 10240.0f, 1.0f, 0.75f, 0, 0, 0, { } },  
+
+          SENSOR_TYPE_LIGHT, 10240.0f, 1.0f, 0.75f, 0, 0, 0, { } },
 };
 
 
