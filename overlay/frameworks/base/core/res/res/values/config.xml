@@ -24,11 +24,11 @@
     <bool name="config_disableMenuKeyInLockScreen">true</bool>
 
     <!-- Workaround for devices with broken keyboards -->
-    <add-resource type="string" name="forceDisableHardwareKeyboard"></add-resource>
+    <add-resource type="bool" name="forceDisableHardwareKeyboard"></add-resource>
     <bool name="config_forceDisableHardwareKeyboard">true</bool>
 
     <!-- Boolean to enable stylus gestures -->
-    <add-resource type="string" name="config_stylusGestures"></add-resource>
+    <add-resource type="bool" name="config_stylusGestures"></add-resource>
     <bool name="config_stylusGestures">true</bool>
     
    <bool name="config_allowAllRotations">true</bool>
@@ -80,6 +80,6 @@
     <!--<bool name="config_enableIrdaManagerService">true</bool>-->
     
     <!-- Device supports LED flashlight -->
-    <add-resource type="string" name="config_enableTorch"></add-resource>
+    <add-resource type="bool" name="config_enableTorch"></add-resource>
     <bool name="config_enableTorch">false</bool>
 </resources>
