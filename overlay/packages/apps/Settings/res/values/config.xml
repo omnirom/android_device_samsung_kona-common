@@ -17,4 +17,10 @@
 
 <resources xmlns:xliff="urnasis:names:tc:xliff:document:1.2 ">
     <bool name="config_show_expandedDesktop">true</bool>
+    
+    <!-- Button settings enabled or disabled -->
+    <bool name="config_device_has_button_settings" translatable="false">true</bool>
+    
+    <!-- Home button wake support -->
+    <bool name="config_show_homeWake">true</bool>
 </resources>
