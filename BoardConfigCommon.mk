@@ -47,6 +47,7 @@ BOARD_SEPOLICY_DIRS += \
 BOARD_SEPOLICY_UNION += \
     file_contexts \
     te_macros \
+    bluetooth.te \
     device.te \
     dhcp.te \
     domain.te \
@@ -58,6 +59,7 @@ BOARD_SEPOLICY_UNION += \
     qmux.te \
     rild.te \
     secril.te \
+    sysinit.te \
     system.te \
     ueventd.te \
     wpa_supplicant.te
