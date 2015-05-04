@@ -1,0 +1,3 @@
+allow sysinit efs_file:dir search;
+allow sysinit firmware_camera:dir { getattr open read search };
+allow sysinit unlabeled:dir search;
